@@ -1,0 +1,285 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg,#eaf4ff,#cfe5ff);
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #0a4fa3;
+    font-weight: bold;
+}
+
+header button {
+    margin-left: 10px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0a4fa3;
+}
+
+.card {
+    width: 360px;
+    margin: 40px auto;
+    background: linear-gradient(#9cb9ff,#e6eeff);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #003c8f;
+    font-size: 14px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #b3c9ff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8fb0ff;
+}
+
+.send {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.home-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, #e9f2ff, #dbeaff);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #e6f0ff;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    color: #2b5fd9;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #2b5fd9;
+    font-weight: 500;
+}
+
+.navbar nav a.logout {
+    color: #d9534f;
+}
+
+/* Home */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+.home-card {
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.home-card h1 {
+    margin-bottom: 10px;
+}
+
+.menu-grid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.menu-box {
+    padding: 15px;
+    background: #b7ceff;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.menu-box:hover {
+    background: #9bb8ff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+
+    /* ใส่รูปพื้นหลัง */
+    background-image: url('bg-home.png');
+    background-size: cover;       /* เต็มจอ */
+    background-position: center;  /* กึ่งกลาง */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* เลื่อนแล้วไม่ขยับ */
+
+    min-height: 100vh;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 64px;
+    color: #0a4fa3;
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+}
+
+.notice {
+    background: rgba(255,255,255,0.6);
+    color: red;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg,#eaf4ff,#cfe5ff);
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #0a4fa3;
+    font-weight: bold;
+}
+
+header button {
+    margin-left: 10px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0a4fa3;
+}
+
+.card {
+    width: 360px;
+    margin: 40px auto;
+    background: linear-gradient(#9cb9ff,#e6eeff);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #003c8f;
+    font-size: 14px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #b3c9ff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8fb0ff;
+}
+
+.send {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}

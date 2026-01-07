@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+<h1>หน้าโฮม (รูปที่สอง)</h1>
+<p id="user"></p>
+
+<div class="hero">
+    <h1>รับฟัง ปรึกษา พัฒนาชุมชน</h1>
+</div>
+
+<div class="notice">
+    เปิดให้บริการ 10:00 ถึง 03:00 ขอบคุณทุกท่านที่มาใช้บริการนะครับ
+</div>
+
+<script>
+    const user = localStorage.getItem('username');
+
+    if (!user) {
+        location.href = 'index.html';
+    }
+
+    document.getElementById('user').innerText = 'ยินดีต้อนรับ ' + user;
+</script>
+
+</body>
+</html>

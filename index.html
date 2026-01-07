@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ระบบฝึก ปรึกษา พัฒนาชุมชน</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">ระบบฝึก ปรึกษา พัฒนาชุมชน</div>
+    <nav>
+        <button onclick="showPage('login')">เข้าสู่ระบบ</button>
+        <button onclick="showPage('register')">ลงทะเบียน</button>
+    </nav>
+</header>
+
+<!-- LOGIN -->
+<div class="card" id="login">
+    <h2>เข้าสู่ระบบ</h2>
+    <label>ชื่อผู้ใช้/อีเมล</label>
+    <input type="text" id="loginUser">
+    <label>รหัสผ่าน</label>
+    <input type="password" id="loginPass">
+    <a onclick="showPage('forgot')">ลืมรหัส</a>
+    <div class="btn-group">
+        <button onclick="login()">เข้าสู่ระบบ</button>
+        <button onclick="showPage('register')">ลงทะเบียน</button>
+    </div>
+</div>
+
+<!-- REGISTER -->
+<div class="card hidden" id="register">
+    <h2>ลงทะเบียน</h2>
+    <label>ชื่อผู้ใช้</label>
+    <input type="text">
+    <label>รหัสผ่าน</label>
+    <input type="password">
+    <label>ยืนยันรหัสผ่าน</label>
+    <input type="password">
+    <label>อีเมล</label>
+    <input type="email">
+    <label>เบอร์โทร</label>
+    <input type="tel">
+    <div class="btn-group">
+        <button>ลงทะเบียน</button>
+        <button onclick="showPage('login')">เข้าสู่ระบบ</button>
+    </div>
+</div>
+
+<!-- FORGOT PASSWORD -->
+<div class="card hidden" id="forgot">
+    <h2>กู้รหัสผ่าน</h2>
+    <label>ชื่อผู้ใช้/อีเมล</label>
+    <input type="text">
+    <label>เบอร์โทร</label>
+    <input type="tel">
+    <button class="send">ส่งรหัส</button>
+    <label>รหัสยืนยัน</label>
+    <input type="text">
+    <label>ตั้งรหัสผ่าน</label>
+    <input type="password">
+    <label>ยืนยันรหัสผ่าน</label>
+    <input type="password">
+    <button onclick="showPage('login')">เข้าสู่ระบบ</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
